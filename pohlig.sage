@@ -1,4 +1,5 @@
 def pohligHellmanPGH(p,g,h):
+  #g must be small
 	F=IntegerModRing(p)
 	g=F(g)
 	h=F(h)
